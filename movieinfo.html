@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Highlights</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <main>
+        <div class="offcanvas offcanvas-start side" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="sidebarLabel">MovieBox</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body col-lg-3 justify-content-center side">
+              <!-- Your Sidebar Content Here -->
+                        <ul>
+                            <li><img src="images/tv.png"  alt="">MovieBox</li>
+                            <li><img src="images/Home.png" alt="">Home</li>
+                            <li class="link"><a class="active" href="index.html"><img src="images/Movie Projector.png" alt="">Movies</a></li>
+                            <li><img src="images/Movie Projector.png" alt="">Tv Series</li>
+                            <li><img src="images/Calendar.png" alt="">Upcoming</li>
+                            <li class="highlight"><strong>Play movie quizes and earn <br> free tickets,</strong><br>50k people are playing now <br><button class="btn-2">Staet playing</button></li>
+                            <li><img src="images/Logout.png" alt="">Log out</li>
+                        </ul>   
+            </div>
+          </div>
+          <button class="btn sidebar" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+            Open
+          </button>
+                    
+              <div class="container-fluid">
+                <div class="row justify-content-center ">
+                    <!-- Sidebar -->
+                   
+                    <!-- Featured Movies Section -->
+                    <div class="col-lg-7 movie-header d-flex justify-content-between align-items-center" id="thriller">
+                         
+                    </div>
+                    <!-- <div class="col-10 col-lg-3- custom-bttn">
+                        <button class="btn btn-lg bg-danger text-light">Top Rated Movies #65</button> 
+                    </div> -->
+                    <div class="col-10 col-lg-3 double-bt1">
+                        <button class="btn  btn-lg my-2 red-bt"><img src="images/Two Tickets.png" alt="">See Showtimes</button>
+                        <button class="btn btn-lg text-butn "><img src="images/List.png" alt="">More watch options</button>
+                        <div class="Rectangle py-4">
+                            <img src="images/Rectangle 37.png" alt="">
+                        </div>
+                        <div class="pic-text"><img class="mx-3" src="images/List.png" alt="">The Best Movies and Shows in September</div>
+                    </div>
+                    
+                </div>
+            </div>
+        
+    </main>
+
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="movieinfo.js"></script>
+</body>
+</html>
