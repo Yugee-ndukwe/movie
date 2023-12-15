@@ -122,8 +122,8 @@ li a{
 }
 
 .sidebar{
-   background-color:  #BE123C;
-   color: #C7C7C7;
+   background-color:  #E8E8E8;
+   /* color: #C7C7C7; */
 
 }
 
@@ -223,6 +223,10 @@ span{
    
     
 }
+
+.heading{
+ gap: 28px;
+}
 @media(max-width:997px) {
     .double-bt1{
         position:relative;
@@ -235,18 +239,40 @@ span{
     width: 300px;
     right: 4%;
     top: 2%;
-    /* margin-right: 2px; */
+
 }
 .bt-content{
 
     border-radius: 10px;
     border: 1px solid #C7C7C7; 
-     width: 252px;
+     width: 248px;
     height: 60px;
-  
 
 }
+
+.buttom-bt{
+    background-color:  #BE123C;
+    height: 50px;
+    width: 300px;
 }
+.genre{
+    display: none;
+}
+.star{
+    display: none;
+}
+.ratings-first{
+    display: none;
+}
+.ratings{
+    display: none;
+}
+
+.heading{
+    gap: 10px;
+}
+}
+
 .rectangle{
     width: 100%;
    
@@ -322,14 +348,6 @@ span img{
     width: 20%;
     padding-right: 10px;
 }
-.heading{
-    /* align-items: center; */
-    /* gap: 15px; */
-    /* width: 100%; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    gap: 28px;
-}
 .ratings-first{
     align-self: flex-end;
     display: flex;
@@ -339,19 +357,11 @@ span img{
 
 .genre{
     color: #BE123C;
-    border: 2px solid blue;
 }
 .dot{
-   
-    /* color: #404040; */
-/* font-family: Poppins; */
 font-size: 40px;
-/* font-style: normal; */
 font-weight: 900;
-/* padding-bottom: 2px; */
-/* line-height: normal;; */
-}
-strong{
-    /* gap: 18px; */
+position: relative;
+bottom: 10px;
 }
 

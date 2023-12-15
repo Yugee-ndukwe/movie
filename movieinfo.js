@@ -51,7 +51,7 @@ fetch(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${apiKey}&append_to
       <h3>${title}</h3>
         <p class ="dot">.</p>
         <p> ${release_date}</p>
-        <p class ="dot>.</p>
+        <p class ="dot">.</p>
         <p>${convertToHoursAndMinutes(runtime)}</p>
         <p class= "genre">${genres.map(genre => genre.name).join(', ')}</p?
      </div>
